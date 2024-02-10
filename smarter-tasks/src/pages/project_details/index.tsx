@@ -9,9 +9,9 @@ import ErrorBoundary from "../../components/ErrorBoundary";
 const ProjectDetailsIndex: React.FC = () => {
   return (
     <TasksProvider>
-            <ErrorBoundary>
+      <ErrorBoundary>
         <Suspense fallback={<div className="suspense-loading">Loading...</div>}>
-        <ProjectDetails />
+         <ProjectDetails />
         </Suspense>
       </ErrorBoundary>
       <Outlet />

@@ -49,6 +49,9 @@ const router = createBrowserRouter([
         <AccountLayout />
       </ProtectedRoute>
     ),
+
+    ErrorBoundary: () => <>Failed to load the page</>,
+
     children: [
       { index: true, element: <Navigate to="/account/projects" replace /> },
 

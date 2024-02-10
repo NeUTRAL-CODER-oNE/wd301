@@ -1,7 +1,8 @@
 import { Suspense } from "react";
 import ErrorBoundary from "../../components/ErrorBoundary";
-import MemberList from "./MemberList";
+const MemberList = React.lazy(() => import("./MemberList"));
 import NewMember from "./NewMember";
+import React from "react";
 
 const Members = () => {
   return (

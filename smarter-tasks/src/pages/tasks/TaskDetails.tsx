@@ -275,7 +275,7 @@ const TaskDetails = () => {
                                 className="rounded-md p-2 mt-2 transition duration-300 transform hover:scale-105 comment"
                               >
                                 <p className="text-gray-700">
-                                Comment:
+                                  Comment:
                                   <span style={{ marginLeft: "5px" }}>
                                     {comment.description}
                                   </span>
